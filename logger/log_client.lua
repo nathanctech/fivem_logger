@@ -1,3 +1,8 @@
+hasSpawned = false
+
 AddEventHandler("playerSpawned", function()
-    TriggerServerEvent("Log:Joined") 
+    if not hasSpawned then
+        TriggerServerEvent("Log:Joined")
+        hasSpawned = true
+    end
 end)
