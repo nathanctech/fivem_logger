@@ -12,7 +12,7 @@ Log player identifiers on connection as well as timestamps on join/leave. Useful
 
 1. Copy the `logger` resource to your resources folder. This resource requires `mysql-async` to also be installed and functioning.
 2. Run the `install.sql` file against the database you will be logging to.
-3. Add `set server_name "YOUR_SERVER_NAME"` to your server.cfg. This will be the "server_name" field in the table.
+3. Add `set server_num "YOUR_SERVER_NAME"` to your server.cfg. This will be the "server_name" field in the table.
 
 ## Usage
 
