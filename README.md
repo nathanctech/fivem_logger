@@ -1,3 +1,5 @@
+## Repository archived. This script is public domain, use how you want.
+
 # FiveM_Logger
 Player Logging for FiveM
 
@@ -21,7 +23,3 @@ There are no commands available with this resource. You should start seeing join
 ## Troubleshooting
 
 If MySQL errors are thrown, ensure `mysql-async` is set up correctly with a connection string.
-
-## Support
-
-Please open an issue if you need support or DM me on Discord (Era#1337).
